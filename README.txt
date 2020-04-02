@@ -1,9 +1,9 @@
 Source code to reproduce bioRxiv manuscript "Tracking the outbreak. An optimized delimiting survey strategy 
-for Xylella fastidiosa in Alicante, Spain" by E. Lázaro et al., 2020.
+for Xylella fastidiosa in Alicante, Spain" by E. Lazaro et al., 2020.
 
-For questions, comments or remarks about the code please contact E. Lázaro (lazaro_ele@gva.es).
+For questions, comments or remarks about the code please contact E. Lazaro (lazaro_ele@gva.es).
 
-Code has been structured in three main folders, 1) "code" and 2) "data". 
+Code has been structured in two main folders, 1) "code" and 2) "data". 
 
 Folder "code" contains all the R code to reproduce all the outputs (tables and figures) 
 showed in the manuscript and in the supplementary material file. It is organised by means 
