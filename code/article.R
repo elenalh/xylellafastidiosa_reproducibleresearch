@@ -308,7 +308,7 @@ jpeg("./t3a.jpeg",
      height=8, 
      pointsize=12, 
      res=300)
-xf2018p <- xf2018[xf2018$ResLab=="POSITIVO",]
+xf2018p <- xf2018[xf2018$resLab=="positive",]
 layout(matrix(c(1, 1,2, 2), nrow=2, byrow=TRUE),heights = c(2.2,0.35))
 par(mar=c(0,0.8,0,0))
 plot(zd_2018)
@@ -367,7 +367,6 @@ layout(matrix(c(1, 1,2, 2), nrow=2, byrow=TRUE),heights = c(2.2,0.35))
 par(mar=c(0,0.8,0,0))
 plot(zd_2018)
 plot(Grid1_2018,border="blue",add=T)
-plot(Grid100_2018,border="darkorange",add=T)
 plot(Grid100_2018b,border="darkorange",add=T)
 plot(infzone_2018,col="red",add=T)
 plot(Grid1_2018,border="blue",add=T)
@@ -888,7 +887,7 @@ for(i in 1:replicates){
 
 # Whole database model
 
-load("./results/incidence_modeling/data_models/mod13.Rdata") 
+load("./results/incidence/models/mod13.Rdata") 
 
 # Parameters
 b0 <- mod13$summary.fixed$mean
