@@ -49,7 +49,7 @@ zone100_2018 <- readOGR("./data/boundaries", "zone100_2018") # 100m x 100m grid 
 # Survey grids
 
 
-Grid100_2018 <- readOGR("./data/grids", "Grid100_2018") # 100m x 100 m grid (whole survey area)
+Grid100_2018 <- readOGR("./data/boundaries", "Grid100_2018") # 100m x 100 m grid (whole survey area)
 
 Grid100_2018b <- readOGR("./data/grids", "Grid100_2018b") # 100m x 100m grid (first kilometer)
 
