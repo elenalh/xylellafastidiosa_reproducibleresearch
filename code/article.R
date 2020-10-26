@@ -25,6 +25,7 @@ library(rgdal)
 library(rgeos)
 library(prettymapr)
 library(RColorBrewer)
+library(INLA)
 
 
 
