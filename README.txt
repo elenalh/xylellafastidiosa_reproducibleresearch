@@ -34,12 +34,12 @@ IMPOTANT: Previously to execute "code" scripts it is recommendable to create an 
 named "results" as te same level of "code" and "data" folders. This folder "results" can be organised as
 follows to store correctly output objects.
 
-	|		     |models(subsubfolfer)	
-	|incidence(subfolder)|
-	|		     |data_subsets_models(subsubfolder)	
-results |three_phase(subfolder)
-(Folder)|
-	|two_phase(subdolder)
+	|		                     |models(subsubfolfer)	
+	|       |incidence(subfolder)|
+	|		                     |data_subsets_models(subsubfolder)	
+results     |three_phase(subfolder)
+(Folder)
+	|       |two_phase(subdolder)
 	|	
 	|
 
